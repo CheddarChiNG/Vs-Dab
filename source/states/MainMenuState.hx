@@ -18,8 +18,8 @@ class MainMenuState extends MusicBeatState
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
-	var optionShit:Array<String> = ['play', 'credits', 'options'];
-	var optionPos = [[10, 35], [10, 285], [10, 435]];
+	var optionShit:Array<String> = ['play', 'options', 'credits'];
+	var optionPos = [[10, 35], [10, 235], [10, 435]];
 
 	override function create()
 	{
@@ -67,10 +67,8 @@ class MainMenuState extends MusicBeatState
 			menuItem.animation.addByPrefix('idle', optionShit[i], 24);
 			// menuItem.animation.addByPrefix('selected', optionShit[i] + " white", 24);
 			menuItem.alpha = .6;
-			if (i == 0)
-				menuItem.scale.set(.85, .85);
-			else
-				menuItem.scale.set(.7, .7);
+			if (i != 0)
+				menuItem.scale.set(.9, .9);
 			menuItem.animation.play('idle');
 			menuItems.add(menuItem);
 
@@ -121,8 +119,8 @@ class MainMenuState extends MusicBeatState
 
 		for (i => spr in menuItems)
 		{
-			spr.scale.x = FlxMath.lerp(spr.scale.x, i == curSelected ? .85 : .7, FlxMath.bound(elapsed * 5, 0, 1));
-			spr.scale.y = FlxMath.lerp(spr.scale.y, i == curSelected ? .85 : .7, FlxMath.bound(elapsed * 5, 0, 1));
+			spr.scale.x = FlxMath.lerp(spr.scale.x, i == curSelected ? 1 : .9, FlxMath.bound(elapsed * 5, 0, 1));
+			spr.scale.y = FlxMath.lerp(spr.scale.y, i == curSelected ? 1 : .9, FlxMath.bound(elapsed * 5, 0, 1));
 		}
 
 		if (!selectedSomethin)
