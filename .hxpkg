@@ -9,7 +9,8 @@
 				"name": "openfl"
 			},
 			{
-				"name": "flixel"
+				"name": "flixel",
+				"version": "5.9.0"
 			},
 			{
 				"name": "flixel-addons"
