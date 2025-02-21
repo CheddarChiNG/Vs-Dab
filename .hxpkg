@@ -1,1 +1,45 @@
-[{"name":"lime"},{"name":"openfl"},{"name":"flixel"},{"name":"flixel-addons"},{"name":"flixel-ui"},{"name":"hxcpp"},{"name":"hxCodec"},{"name":"tjson"},{"name":"hxdiscord_rpc","link":"https://github.com/MAJigsaw77/hxdiscord_rpc"},{"name":"flxanimate","link":"https://github.com/ShadowMario/flxanimate","branch":"dev"},{"name":"linc_luajit","link":"https://github.com/superpowers04/linc_luajit"}]
+[
+	{
+		"profile": "default",
+		"pkgs": [
+			{
+				"name": "lime"
+			},
+			{
+				"name": "openfl"
+			},
+			{
+				"name": "flixel"
+			},
+			{
+				"name": "flixel-addons"
+			},
+			{
+				"name": "flixel-ui"
+			},
+			{
+				"name": "hxCodec"
+			},
+			{
+				"name": "tjson"
+			},
+			{
+				"name": "hxdiscord_rpc",
+				"link": "https://github.com/MAJigsaw77/hxdiscord_rpc"
+			},
+			{
+				"name": "flxanimate",
+				"link": "https://github.com/ShadowMario/flxanimate",
+				"branch": "dev"
+			},
+			{
+				"name": "linc_luajit",
+				"link": "https://github.com/superpowers04/linc_luajit"
+			},
+			{
+				"name": "hxcpp",
+				"link": "https://github.com/HaxeFoundation/hxcpp"
+			}
+		]
+	}
+]
