@@ -10,7 +10,7 @@
 			},
 			{
 				"name": "flixel",
-				"version": "5.9.0"
+				"version": "5.8.0"
 			},
 			{
 				"name": "flixel-addons"
@@ -26,7 +26,8 @@
 			},
 			{
 				"name": "hxdiscord_rpc",
-				"link": "https://github.com/MAJigsaw77/hxdiscord_rpc"
+				"link": "https://github.com/MAJigsaw77/hxdiscord_rpc",
+				"branch": "19518713cbd59fc5705f899144fffdbf9ae6695c"
 			},
 			{
 				"name": "flxanimate",
